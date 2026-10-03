@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Generated data — the knowledge base is rebuilt from the sources
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Local regulation files imported by the user
+imports/
+testdata/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
